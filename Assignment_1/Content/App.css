@@ -1,2 +1,7 @@
-﻿body {
+﻿#footer{
+    background-color :bisque;
+}
+
+.logo{
+    width: 114px;
 }

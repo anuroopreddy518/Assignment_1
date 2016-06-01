@@ -1,7 +1,9 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Assignment_1.Site" %>
+<%@ Register Src="~/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 
 <!DOCTYPE html>
 <html lang="en">
+    <!-- head section -->
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1" />
@@ -14,49 +16,28 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+    
+    <!-- Body section -->
 <body>
 
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Anuroop</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-               
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="Default.aspx"><i class="fa fa-home fa-lg"></i>Home</a></li>
-                    <li><a href="Products.aspx"><i class="fa fa-th fa-lg"></i>Products</a></li>
-                    <li><a href="Services.aspx"><i class="fa fa-gear fa-lg"></i>Services</a></li>
-                    <li><a href="About.aspx"><i class="fa fa-info fa-lg"></i>About Us</a></li>
-                    <li><a href="Contact.aspx"><i class="fa fa-phone fa-lg"></i>Contact</a></li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-
     <form id="form1" runat="server">
+        <bs3:Navbar runat="server"></bs3:Navbar>
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
+        <footer class="nav navbar-fixed-bottom" id="footer">
+            
+  <p>@Anuroop Design Studios. Inc</p>
+  <p>Contact information: <a href="mailto:Anuroop@gmail.com">
+  Anuroop@gmail.com</a>.</p>
+</footer>
     </form>
     <!-- Java Script -->
     <script src="scripts/jquery-2.2.3.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
+    <!-- End of head section -->
 </html>
