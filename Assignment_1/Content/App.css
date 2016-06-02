@@ -5,3 +5,26 @@
 .logo{
     width: 114px;
 }
+
+.detail{
+        left: 44%;
+    margin-top: -14%;
+}
+
+.home-content{
+    margin-top: -22px;
+    position:absolute;
+}
+
+.bg{
+    background-size:cover;
+    width:100%;
+}
+
+.navbar-inverse{
+    margin-bottom: 0;
+}
+
+.content{
+    color:white;
+}

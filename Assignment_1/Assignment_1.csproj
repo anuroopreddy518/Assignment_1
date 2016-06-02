@@ -95,7 +95,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\Beautiful-Nature-2.jpg" />
+    <Content Include="Assets\blackmagic-ursa-4k-bigger.jpg" />
+    <Content Include="Assets\cámara-Hasselblad-Lunar.png" />
+    <Content Include="Assets\deer3.jpg" />
+    <Content Include="Assets\download.jpg" />
+    <Content Include="Assets\lense.jpg" />
+    <Content Include="Assets\Main_pic.jpg" />
     <Content Include="Assets\Reddy_group_Logo.jpg" />
+    <Content Include="Assets\sigma1835mmb.jpg" />
+    <Content Include="Assets\wildlife-adventure-holidays.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Navbar.ascx" />
     <Content Include="packages.config" />

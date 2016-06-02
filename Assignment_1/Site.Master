@@ -31,7 +31,9 @@
             
   <p>@Anuroop Design Studios. Inc</p>
   <p>Contact information: <a href="mailto:Anuroop@gmail.com">
-  Anuroop@gmail.com</a>.</p>
+  Anuroop@gmail.com</a>. <i style="margin-left: 90%; display: table-row-group;" class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></p>
+
+    
 </footer>
     </form>
     <!-- Java Script -->
